@@ -1,4 +1,4 @@
-import { Navigation, Pagination, Scrollbar, A11y } from "swiper/modules";
+import { Pagination, A11y } from "swiper/modules";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -12,10 +12,9 @@ const SwiperComponent = () => {
   return (
     <Swiper
       // install Swiper modules
-      modules={[Navigation, Pagination, Scrollbar, A11y]}
+      modules={[Pagination, A11y]}
       spaceBetween={50}
       slidesPerView={1}
-      navigation
       pagination={{ clickable: true }}
       onSwiper={(swiper) => console.log(swiper)}
       onSlideChange={() => console.log("slide change")}

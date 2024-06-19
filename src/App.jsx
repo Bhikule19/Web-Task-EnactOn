@@ -1,10 +1,11 @@
 import "./App.css";
-import SwiperComponent from "./components/SwiperComponent";
+
+import Homepage from "./pages/Homepage";
 
 function App() {
   return (
     <>
-      <SwiperComponent />
+      <Homepage />
     </>
   );
 }
