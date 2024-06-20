@@ -7,7 +7,7 @@ import NavExpanded from "./NavExpanded";
 const Sidebar = () => {
   //Setting the breakpoint for small screen size
   const isMobile = useMediaQuery({
-    query: "(max-width: 500px)",
+    query: "(max-width: 768px)",
   });
 
   const [isExpanded, setIsExpanded] = useState(false);
